@@ -1,9 +1,9 @@
 # :icecream:Typescript_Playground
 Dear Typescript, are you the future hero or not?
 
-# :icecream::Create React App 
+# :icecream:Create React App 
 https://create-react-app.dev/docs/getting-started
 
-# :icecream::Development
+# :icecream:Development
 
 <a href="https://www.linkedin.com/in/joan-shi-87a152179/" target="_blank"><img src="./my-app/src/development.png" alt="Joan's mirror image at Museum of NZ Te Papa Tongarewa" width="750" /></a>
