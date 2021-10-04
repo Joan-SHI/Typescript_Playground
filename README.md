@@ -11,3 +11,7 @@ https://create-react-app.dev/docs/getting-started
 # :icecream: Adding TypeScript
 
 https://create-react-app.dev/docs/adding-typescript/
+
+# :icecream: Adding type definitions for react-bootstrap
+
+https://www.npmjs.com/package/@types/react-bootstrap
