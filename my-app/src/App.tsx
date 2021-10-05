@@ -40,26 +40,26 @@ const App: React.FC = () => {
       <header className="App-header">
         
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           施琼娜的简历
-        </p>
-        <a
+        </p> */}
+        {/* <a
           className="App-link"
           href="https://www.linkedin.com/in/joan-shi-87a152179/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn about Joan
-        </a>
+        </a> */}
         <Container className="p-3">
       {/* <Jumbotron>
         <h1 className="header">
           Welcome To React-Bootstrap TypeScript Example
         </h1>
       </Jumbotron> */}
-      <h2>Buttons</h2>
+      <h2>Joan's skills</h2>
       <ButtonsShowcase />
-      <h2>Toasts</h2>
+      <h2>Joan's strenths</h2>
       <ToastsShowcase />
     </Container>
       </header>

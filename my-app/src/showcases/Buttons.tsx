@@ -5,31 +5,34 @@ import Button from 'react-bootstrap/Button';
 const ButtonsShowcase: React.FC = () => (
   <div className="p-1">
     <Button variant="primary" className="mr-1">
-      Primary
-    </Button>
+      Drupal
+    </Button> {''}
     <Button variant="secondary" className="mr-1">
-      Secondary
-    </Button>
+      React
+    </Button> {''}
     <Button variant="success" className="mr-1">
-      Success
-    </Button>
+      TypeScript
+    </Button> {''}
     <Button variant="warning" className="mr-1">
-      Warning
-    </Button>
+      Azure
+    </Button> {''}
     <Button variant="danger" className="mr-1">
-      Danger
-    </Button>
+      Node.js
+    </Button> {''}
     <Button variant="info" className="mr-1">
-      Info
-    </Button>
+      SASS/CSS/HTML
+    </Button> {''}
     <Button variant="light" className="mr-1">
-      Light
+      AR/VR
+    </Button> {''}
+    <Button variant="success" className="mr-1">
+      Developer's Joke
+    </Button> {''}
+    <Button variant="link" href="https://github.com/Joan-SHI" target="_blank" className="mr-1">
+      GitHub 
     </Button>
-    <Button variant="dark" className="mr-1">
-      Dark
-    </Button>
-    <Button variant="link" className="mr-1">
-      Link
+    <Button variant="link" href="https://www.linkedin.com/in/joan-shi-87a152179/" target="_blank" className="mr-1">
+      LinkedIn 
     </Button>
   </div>
 );

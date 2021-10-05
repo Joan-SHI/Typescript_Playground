@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
-
 import Toast from 'react-bootstrap/Toast';
 import Button from 'react-bootstrap/Button';
 
 const ToastsShowcase: React.FC = () => {
   const [show, toggleShow] = useState(true);
-
   return (
     <>
-      {!show && <Button onClick={() => toggleShow(true)}>Show Toast</Button>}
+      {!show && <Button onClick={() => toggleShow(true)}>Resilience</Button>} {''}
+      {!show && <Button onClick={() => toggleShow(true)}>Intelligent</Button>} {''}
+      {!show && <Button onClick={() => toggleShow(true)}>Curious</Button>} {''}
+      {!show && <Button onClick={() => toggleShow(true)}>Creative</Button>} {''}
+      {!show && <Button onClick={() => toggleShow(true)}>Well travelled</Button>} {''}
+      {!show && <Button onClick={() => toggleShow(true)}>Open minded</Button>} {''}
+      {!show && <Button onClick={() => toggleShow(true)}>Proactive</Button>} {''}
+      {!show && <Button onClick={() => toggleShow(true)}>Sporty</Button>}
+
+
       {/*
     // @ts-ignore */}
       <Toast show={show} onClose={() => toggleShow(false)}>
