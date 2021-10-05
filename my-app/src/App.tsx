@@ -57,8 +57,10 @@ const App: React.FC = () => {
           Welcome To React-Bootstrap TypeScript Example
         </h1>
       </Jumbotron> */}
+      <p>&nbsp;</p>
       <h2>Joan's skills</h2>
       <ButtonsShowcase />
+      <p>&nbsp;</p>
       <h2>Joan's strenths</h2>
       <ToastsShowcase />
     </Container>
