@@ -26,3 +26,6 @@ https://react-icons.github.io/react-icons/
 # :icecream: Introduce Button and Toasts Components
 https://react-bootstrap.github.io/components/buttons/
 https://react-bootstrap.github.io/components/toasts/
+
+# :icecream: Deploy to GitHub Pages
+https://create-react-app.dev/docs/deployment/
