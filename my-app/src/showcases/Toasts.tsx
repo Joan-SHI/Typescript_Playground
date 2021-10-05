@@ -1,31 +1,25 @@
 import React, { useState } from 'react';
 import Toast from 'react-bootstrap/Toast';
 import Button from 'react-bootstrap/Button';
+import { GiDolphin } from 'react-icons/gi';
 
 const ToastsShowcase: React.FC = () => {
   const [show, toggleShow] = useState(true);
   return (
     <>
-      {!show && <Button onClick={() => toggleShow(true)}>Resilience</Button>} {''}
-      {!show && <Button onClick={() => toggleShow(true)}>Intelligent</Button>} {''}
-      {!show && <Button onClick={() => toggleShow(true)}>Curious</Button>} {''}
-      {!show && <Button onClick={() => toggleShow(true)}>Creative</Button>} {''}
-      {!show && <Button onClick={() => toggleShow(true)}>Well travelled</Button>} {''}
-      {!show && <Button onClick={() => toggleShow(true)}>Open minded</Button>} {''}
-      {!show && <Button onClick={() => toggleShow(true)}>Proactive</Button>} {''}
-      {!show && <Button onClick={() => toggleShow(true)}>Sporty</Button>}
-
+      {!show && <Button onClick={() => toggleShow(true)}><GiDolphin /></Button>} {''}
+      <Toast show={show} onClose={() => toggleShow(false)} bg={'warning'}>
+        <Toast.Header>
+          <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
+          <strong className="mr-auto"><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin />
+          <GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /><GiDolphin /></strong>
+        </Toast.Header>
+        <Toast.Body> <strong>   Resilience + Intelligent + Curious + Creative + Well travelled + Open minded + Proactive + Sporty</strong> </Toast.Body>
+      </Toast>
 
       {/*
     // @ts-ignore */}
-      <Toast show={show} onClose={() => toggleShow(false)}>
-        <Toast.Header>
-          <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
-          <strong className="mr-auto">Bootstrap</strong>
-          <small>11 mins ago</small>
-        </Toast.Header>
-        <Toast.Body>Hello, world! This is a toast message.</Toast.Body>
-      </Toast>
+      
     </>
   );
 };

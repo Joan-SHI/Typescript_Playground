@@ -19,3 +19,10 @@ https://www.npmjs.com/package/@types/react-bootstrap
 # :icecream: Play around React-Bootstrap TypeScript 
 
 https://codesandbox.io/s/github/react-bootstrap/code-sandbox-examples/tree/master/basic-ts?file=/src/App.tsx
+
+# :icecream: Introduce react-icons
+https://react-icons.github.io/react-icons/
+
+# :icecream: Introduce Button and Toasts Components
+https://react-bootstrap.github.io/components/buttons/
+https://react-bootstrap.github.io/components/toasts/
