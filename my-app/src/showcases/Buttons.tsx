@@ -30,19 +30,7 @@ const ButtonsShowcase: React.FC = () => (
     </Button> {''}
     <Button variant="success" className="mr-1">
       Developer's Joke
-    </Button> {''}
-    {''}
-    <a href="https://github.com/Joan-SHI" target="_blank" className="mr-1">
-    <FaGithub />
-    </a>
-    {''}
-    
-    <a href="https://www.linkedin.com/in/joan-shi-87a152179/" target="_blank" className="mr-1">
-    <FaLinkedin />
-    </a>
-    <a href="mailto: qiongnashi@gmail.com" className="mr-1">
-    <HiOutlineMail />
-    </a>
+    </Button> 
   </div>
 );
 
