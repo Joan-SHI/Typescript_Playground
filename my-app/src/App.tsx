@@ -12,13 +12,13 @@ const App: React.FC = () => {
         <img src={logo} className="App-logo" alt="logo" />
         <Container className="p-3">
       <p>&nbsp;</p>
-      <h2>Joan's skills</h2>
+      <h2 className="font-link">Joan's skills</h2>
       <ButtonsShowcase />
       <p>&nbsp;</p>
-      <h2>Joan's strenths</h2>
+      <h2 className="font-link">Joan's strenths</h2>
       <ToastsShowcase />
       <p>&nbsp;</p>
-      <h2>Contact Info</h2>
+      <h2 className="font-link">Contact Info</h2>
       <ReachOut />
     </Container>
       </header>

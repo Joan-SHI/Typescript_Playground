@@ -1,12 +1,8 @@
 import React from 'react';
-
 import Button from 'react-bootstrap/Button';
-import { FaGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
 
 const ButtonsShowcase: React.FC = () => (
-  <div className="p-1">
+  <div className="font-link">
     <Button variant="primary" className="mr-1">
       Drupal
     </Button> {''}
