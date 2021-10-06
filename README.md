@@ -30,5 +30,8 @@ https://react-bootstrap.github.io/components/toasts/
 # :icecream: Deploy to GitHub Pages
 https://create-react-app.dev/docs/deployment/
 
-# :icecream: Serving as Joan's simple Name Card - Version 1.0
+# :icecream: Serving as Joan's simple Name Card - version 1.0
 <a href="https://joan-shi.github.io/Typescript_Playground/" target="_blank"><img src="./my-app/src/Joan_Name_Card.png" alt="Joan's simple name card" width="750" /></a>
+
+# :icecream: Keep using build pipeline and deploying the changes 
+Keep using build pipeline and deploying the changes to the production site to make it looks nicer through different devices. 
