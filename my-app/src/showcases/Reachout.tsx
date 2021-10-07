@@ -6,15 +6,15 @@ import { HiOutlineMail } from 'react-icons/hi';
 const ReachOut: React.FC = () => (
   <div className="p-1">
     <a href="https://github.com/Joan-SHI" target="_blank" className="mr-1">
-    <FaGithub />
+    <FaGithub size={38}/>
     </a>
     {''} {''} 
     <a href="https://www.linkedin.com/in/joan-shi-87a152179/" target="_blank" className="mr-1">
-    <FaLinkedin />
+    <FaLinkedin size={38}/>
     </a>
     {''} {''} 
     <a href="mailto: qiongnashi@gmail.com" className="mr-1">
-    <HiOutlineMail />
+    <HiOutlineMail size={38}/>
     </a>
   </div>
 );
