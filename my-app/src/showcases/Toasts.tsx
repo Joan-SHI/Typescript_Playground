@@ -7,7 +7,7 @@ const ToastsShowcase: React.FC = () => {
   const [show, toggleShow] = useState(true);
   return (
     <>
-      {!show && <Button onClick={() => toggleShow(true)}><FaIceCream /></Button>} {''}
+      {!show && <Button variant="warning" onClick={() => toggleShow(true)}><FaIceCream /></Button>} {''}
       <Toast show={show} onClose={() => toggleShow(false)} bg={'warning'}>
         <Toast.Header>
           <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
