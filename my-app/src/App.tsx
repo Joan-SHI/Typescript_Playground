@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <h2 className="font-link">Joan's skills</h2>
       <ButtonsShowcase />
       <p>&nbsp;</p>
-      <h2 className="font-link">Joan's strenths</h2>
+      <h2 className="font-link">Joan's strengths</h2>
       <ToastsShowcase />
       <p>&nbsp;</p>
       <h2 className="font-link">Contact Info</h2>
